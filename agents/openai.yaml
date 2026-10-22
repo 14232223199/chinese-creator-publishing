@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文创作者文章生产"
+  short_description: "调研、写作、润色并排版 X 中文内容"
+  default_prompt: "把我发来的中文稿件整理成适合 X 发布的格式，保留我的观点和语气。"
