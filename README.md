@@ -21,7 +21,7 @@
 
 | 宿主 | 当前用户的所有本地项目 | 单个本地项目 |
 | --- | --- | --- |
-| Codex | `%USERPROFILE%\.agents\skills\chinese-creator-publishing\SKILL.md` | `<项目根目录>\.agents\skills\chinese-creator-publishing\SKILL.md` |
+| Codex | `%USERPROFILE%\.codex\skills\chinese-creator-publishing\SKILL.md`（设置了 `CODEX_HOME` 时用 `%CODEX_HOME%\skills\...`） | `<项目根目录>\.agents\skills\chinese-creator-publishing\SKILL.md` |
 | Claude Code | `%USERPROFILE%\.claude\skills\chinese-creator-publishing\SKILL.md` | `<项目根目录>\.claude\skills\chinese-creator-publishing\SKILL.md` |
 
 表中的路径是**复制后的 `SKILL.md` 所在位置**，不要把文件夹再嵌套一层。macOS/Linux 将 `%USERPROFILE%` 换成 `~`，路径分隔符换成 `/`。安装后开启新会话；若 Codex 尚未显示技能，重启 Codex。安装路径依据 [Codex 官方 Skills 文档](https://learn.chatgpt.com/docs/build-skills)和 [Claude Code 官方 Skills 文档](https://code.claude.com/docs/en/skills)。
